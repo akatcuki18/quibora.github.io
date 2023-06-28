@@ -1,0 +1,130 @@
+.header {
+  margin-top:0;
+  height:90px;
+  background:lightblue;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index:100;
+  position:fixed;
+  right:0px;
+  left:0px;
+}
+
+.left-section {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 200px;
+  height:200px;
+  margin-top: -55px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.services {
+  font-style: Arial;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.below-sign {
+  width:13px;
+  margin-top:-5px;
+  margin-left:2px;
+}
+
+.about-us {
+  font-style: Arial;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.resources {
+  font-style: Arial;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.our-blog {
+  font-style: Arial;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.right-section {
+  width: 550px;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.call-icon {
+  width:18px;
+  height:15px;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.phone-number {
+  font-style: Arial;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left:3px;
+}
+
+.question {
+  width: 45px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.enquire-now {
+  background-color: rgb(255, 49, 49);
+  color: white;
+  font-style: Arial;
+  font-size: 18px;
+  margin-top:25px;
+  margin-left:50px;
+  padding-top:3px;
+  padding-left:3px;
+  padding-right:3px;
+  border-style: solid; 
+  border-radius: 20px;
+  border-color: rgb(255, 49, 49);
+  height:24px;
+}
+
+.information {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  position:relative;
+  top:100px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  margin-left:35px;
+  margin-right:35px;
+}
+
+.friends {
+  width: 500px;
+  display:flex;
+  margin-right:25px;
+}
